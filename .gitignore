@@ -1,46 +1,28 @@
+# --- ESP-IDF Build & Temporary Files ---
 build/
 sdkconfig
 sdkconfig.old
-managed_components/
+sdkconfig.defaults
 dependencies.lock
+managed_components/
 
+# --- AWS Security (CRITICAL) ---
+# Loại bỏ file chứa chứng chỉ thật để tránh rò rỉ lên GitHub
+**/aws_iot_core/include/secrets.h
 
-.env
-
-# File chứa pass WiFi và Certs cho ESP32
-**/secrets.h
-# Bảo mật thông tin AWS
-components/aws_iot_core/secrets.h
-
-
-*.pem
-*.crt
-*.key
-*.csr
-*.private
-*.public
-
-
-
-
-
+# --- IDE Settings (VS Code / JetBrains) ---
 .vscode/
 .idea/
+*.code-workspace
+.DS_Store
 
-
+# --- Backend / FastAPI Files ---
 __pycache__/
-*.pyc
-
-
-.venv/
+*.py[cod]
+*$py.class
+.env
 venv/
 env/
 
-
-build/
-dist/
-*.egg-info/
-
-
-.DS_Store
-Thumbs.db
+# --- Log Files ---
+*.log
