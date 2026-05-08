@@ -8,7 +8,7 @@ managed_components/
 
 # --- AWS Security (CRITICAL) ---
 # Loại bỏ file chứa chứng chỉ thật để tránh rò rỉ lên GitHub
-**/aws_iot_core/include/secrets.h
+**/aws_iot_core/include/secret.h
 
 # --- IDE Settings (VS Code / JetBrains) ---
 .vscode/
