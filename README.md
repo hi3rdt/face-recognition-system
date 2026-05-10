@@ -41,7 +41,7 @@ Hệ thống giám sát an ninh IoT toàn diện, kết hợp phần cứng vi �
 
 Dữ liệu được truyền tải bảo mật hai chiều từ thiết bị lên đám mây thông qua giao thức MQTT với chứng chỉ X.509.
 
-![Sơ đồ Kiến trúc Hệ thống AWS IoT](architecture.jpg)
+![Sơ đồ Kiến trúc Hệ thống AWS IoT](architecture.png)
 
 ---
 
