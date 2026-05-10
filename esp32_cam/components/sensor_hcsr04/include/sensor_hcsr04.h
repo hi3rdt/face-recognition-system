@@ -1,0 +1,6 @@
+#ifndef SENSOR_HCSR04_H
+#define SENSOR_HCSR04_H
+
+void sensor_hcsr04_init(void);
+
+#endif
